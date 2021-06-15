@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-text {
+    text-align: center;
+      /*  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    color: black;
+    font-size: 76px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 78px;
+    margin-bottom: 32px;
+  }
+  .hero-subtitle{
+    text-align: center;
+    color: #41415a;
+    flex-flow: row;
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 28px;
+}
+.hero-btn{
+    background-color: #5466f9;
+    border-radius: 40px;
+    box-sizing: initial;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding: 10px 32px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.hero-img{
+    height: auto;
+    margin-bottom: 72px;
+    max-width: 90vw;
+    width: 880px;
+}
+.partners-txt{
+    color: #9d9dae;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    margin-right: 60px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.partner-logos{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+h2{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+p{
+    color: #41415a;
+    font-size: 18px;
+    letter-spacing: .6px;
+    line-height: 28px;
+}
+.card-box{
+    box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+    border-radius: 12px;
+    padding: 36px 31px;
+    position: relative;
+    width: 440px;
+}
+a{
+    color: #4165ff;
+}
+.text-black{
+    color: #000;
+}
+.grey{
+color: #9d9db0;
+}
