@@ -1,2 +1,2 @@
 # Mercury-HB
-A redesign of the Mercury website
+A redesign of the Mercury.com website
