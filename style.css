@@ -95,3 +95,30 @@ a{
 .grey{
 color: #9d9db0;
 }
+.card-shadow{
+    box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+    border-radius: 12px;
+    background-color: #fff;
+    color: #41415a;
+    display: flex;
+    flex-flow: row;
+    padding: 28px;
+    margin-bottom: 20px;
+}
+.styles__wisdomCard{
+    display: flex;
+    flex-flow: column;
+    color: #000;
+}
+.wisdomCard-title{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 24px;
+}
+.wisdomCard-description{
+    font-size: 14px;
+    letter-spacing: .3px;
+    line-height: 20px;
+    
+}
