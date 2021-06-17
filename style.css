@@ -67,7 +67,7 @@ a:hover {
     justify-content: space-around;
 }
 h2{
-    font-size: 48px;
+    font-size: 48px !important;
     font-weight: 600;
     letter-spacing: .6px;
     line-height: 56px;
