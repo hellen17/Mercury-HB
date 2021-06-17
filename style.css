@@ -122,3 +122,58 @@ color: #9d9db0;
     line-height: 20px;
     
 }
+
+
+
+.nav-btn{
+    background-color: #5466f9;
+    border-radius: 40px;
+    box-sizing: initial;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 24px;
+    padding: 4px 24px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-btn:hover{
+    background-color: linear-gradient(180deg,#4b5fea,#607aff);
+    color: #fff;
+}
+
+.hero-btn:hover{
+    background-color: linear-gradient(180deg,#4b5fea,#607aff);
+    color: #fff;
+}
+
+.navbar-light{
+    background-color: #fff!important;
+}
+
+.bg-blue{
+    background-color: #41415a;
+}
+
+.bg-dark-blue{
+    background-color: #2f2f45;
+}
+
+.rounded{
+    border-radius: 20px!important;
+}
+
+.box{
+    background-color: #fff;
+    box-shadow: 0 56px 70px rgb(129 129 140 / 1%), 0 1px 12px rgb(129 129 140 / 6%), 0 56px 70px #f5f5f5;
+    height: 4000px;
+    position: absolute;
+    right: calc(50% + 215px);
+    top: -730px;
+    transform: rotate(10deg);
+    width: 4000px;
+    z-index: 0;
+}
