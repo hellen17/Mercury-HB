@@ -84,7 +84,7 @@ p{
     border-radius: 12px;
     padding: 36px 31px;
     position: relative;
-    width: 440px;
+    max-width: 440px;
 }
 a{
     color: #4165ff;

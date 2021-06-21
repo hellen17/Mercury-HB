@@ -44,6 +44,25 @@
     line-height: 56px;
     margin-bottom: 24px;
   }
+  .mobile{
+    display: none;
+  }
+  .partner-img{
+    margin-bottom: 1em;
+  }
+
+  @media only screen and (max-width: 968px) {
+    .desktop{
+      display: none!important;
+    }
+    .mobile{
+      display: block;
+    }
+    h2{
+      font-size: 38px !important;
+    }
+  }
+
   </style>
 </head>
 
@@ -78,8 +97,8 @@
         Banking built<br> for startups
       </div>
       <div class="hero-subtitle">
-        <p class="d-inline-block align-middle">Mercury makes bank accounts <br>that help tech companies scale</p>
-        <span><a class="hero-btn" href="#">Open Account</a></span>
+        <p class="d-inline-block align-middle pb-3">Mercury makes bank accounts <br>that help tech companies scale</p>
+        <span><a class="hero-btn mb-3" href="#">Open Account</a></span>
       </div>
       <img class="hero-img mx-auto d-block" src="img/laptop-2x.png">
     </section>
@@ -87,7 +106,7 @@
 
     <!-- Partners -->
 
-    <section style="
+    <section class="desktop" style="
     align-items: center;
     display: flex;
     flex-flow: row;
@@ -117,6 +136,46 @@
 
       </div>
     </section>
+<!-- mobile view -->
+    <section class="mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+      <div class="partners-txt pb-3 text-center">
+        Trusted by dynamic companies
+      </div>
+        </div>
+        </div>
+      <div class="row">
+      
+      <div class="partner-logos">
+        <div class="col-6 text-center">  
+        <a href="#">
+          <img class = "partner-img" src="img/tandem-logo.png">
+        </a><br>
+        <a href="#">
+          <img class = "partner-img" src="img/trustandwill-logo.png">
+        </a><br>
+        <a href="#">
+          <img class = "partner-img" src="img/memfault-logo.png">
+        </a>
+        </div>
+        <div class="col-6"> 
+        <a href="#">
+          <img class = "partner-img" src="img/wren-logo.png">
+        </a>
+        <a href="#">
+          <img class = "partner-img" src="img/golden-logo.png">
+        </a>
+        <a href="#">
+          <img class = "partner-img" src="img/scratchpad-logo.png">
+        </a>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+    </section>
   </div>
 
   <section class="py-3">
@@ -129,7 +188,7 @@
         </div>
         <div class="col-md-6">
           <!-- <object data="phone.svg"> </object> -->
-          <svg width="466" height="557" viewBox="0 0 466 557" fill="none">
+          <svg viewBox="0 0 466 557" fill="none">
             <g filter="url(#appncard_filter0_ddi)">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M395.885 26.077L275.454 18.5c-21.646-.684-30.287 7.622-34.74 32.953l-62.566 355.896c-2.839 16.152 3.748 30.604 19.619 35.973l51.163 16.155a.831.831 0 01.712-.106l7.558 2.399a.8.8 0 01.502.477l57.273 18.084c22.506 3.968 35.03-11.456 38.558-31.527l67.769-385.495c4.362-24.812-8.723-35.68-25.417-37.23z"
@@ -613,7 +672,7 @@
     <div class="container">
       <div class="row" style="align-items: center;">
         <div class="col-md-6">
-          <div class="card-box">
+          <div class="card-box mb-5">
             <p>Today, Jun 15</p>
             <svg width="310" height="338" viewBox="0 0 310 338" fill="none">
               <path
@@ -703,7 +762,7 @@
   <section>
     <div class="container" style="padding-top: 7em;padding-bottom: 5em;">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 desktop">
           <h2>Take community<br> wisdom with you</h2>
           <p>Tap into Silicon Valley’s core. Our network<br> and expertise are always at your disposal.</p>
           <span class="pb-2" style="text-transform: uppercase; background-color:#f9f9fb;"><br>
@@ -787,6 +846,108 @@
 
             </div>
             <div class="col-md-4">
+              <a href="#">
+                <div class="text-black">
+                  <b>Roger Smith </b>
+                </div>
+                <span class="grey">
+                  Founder, SVB
+                </span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- mobile view -->
+        <div class="col-md-12 mobile">
+          <h2>Take community<br> wisdom with you</h2>
+          <p>Tap into Silicon Valley’s core. Our network<br> and expertise are always at your disposal.</p>
+          <span class="pb-2" style="text-transform: uppercase; background-color:#f9f9fb;"><br>
+            <a href="#" style="color: black;">Our Investors</a>
+          </span><br><br><br><br>
+          <div class="row row-cols-auto" style="
+          margin-bottom: 15px;">
+            <div class="col">
+              <a href="#">
+                <img src="img/a16z.png">
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="#">
+                <img src="img/sv-angel.png">
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="#">
+                <img src="img/crv.png">
+              </a>
+            </div>
+
+          </div>
+          <div class="row row-cols-auto" style="
+          margin-bottom: 15px;">
+            <div class="col">
+              <a href="#">
+                <div class="text-black">
+                  <b>Bill Clerico</b>
+                </div>
+                <span class="grey">
+                  WePay
+                </span>
+              </a>
+
+            </div>
+            <div class="col">
+              <a href="#">
+                <div class="text-black">
+                  <b>Howie Liu </b>
+                </div>
+                <span class="grey">
+                  Airtable
+                </span>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#">
+                <div class="text-black">
+                  <b>Josh Reeves </b>
+                </div>
+                <span class="grey">
+                  Gusto
+                </span>
+              </a>
+            </div>
+
+          </div>
+          <div class="row row-cols-auto" style="
+          margin-bottom: 25px;">
+            <div class="col">
+              <a href="#">
+                <div class="text-black">
+                  <b>Justin Kan </b>
+                </div>
+                <span class="grey">
+                  Atrium
+                </span>
+              </a>
+
+            </div>
+            <div class="col">
+              <a href="#">
+                <div class="text-black">
+                  <b>Naval Ravikant </b>
+                </div>
+                <span class="grey">
+                  AngelList
+                </span>
+              </a>
+
+            </div>
+            <div class="col">
               <a href="#">
                 <div class="text-black">
                   <b>Roger Smith </b>
